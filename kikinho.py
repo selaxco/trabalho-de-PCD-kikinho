@@ -64,7 +64,6 @@ perguntasEspecíficas = {
     "O seu elemento pode ajudar a evitar pedra nos rins?":{19},
     "O seu elemento é essencial para a manutenção dos ossos?":{20},
     "O seu elemento auxilia no trasporte do Oxigênio pelo corpos animais?":{26},
-    "Um de seus compostos foi util?":{27},
     "O seu elemento é utilizado para fazer fios elétricos?":{29},
     "O seu elemento se parece com o nome do planeta do Super-Homem?":{36},
     "O seu elemento é utilizado para desinfetar machucados?":{53},
@@ -92,7 +91,7 @@ while perguntasPossíveis != set():
 
     elementosPossíveis = elementosPossíveis - listaExcluída
 
-    print(elementosPossíveis)
+    #print(elementosPossíveis)
 
     if perguntaAtual in perguntasPossíveis:
         perguntasPossíveis.remove(perguntaAtual)
